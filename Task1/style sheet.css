@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container_image {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.heading_title {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;
+    color: black;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.para {
+    text-align: center;
+    color: black;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 30px;
+    color: orange;
+    padding-top: 200px;
+}
+.para p{
+    padding: 0px 100px;
+    letter-spacing: 1px;
+    line-height: 80px;
+}
+
+.second_para {
+
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn>button{
+    margin: 20px;
+    text-align: center;
+    background-color: orange;
+    border-radius: 5px;
+    border: 3px solid black;
+    padding: 5px 10px;
+}
+
+nav>a{
+    color: white;
+    padding: 50px;
+    font-size: larger;
+    font-family: roboto;
+    font-weight:500;
+}
+
+.header_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+.icons>a{
+    padding: 10px;
+    color: azure;
+}
